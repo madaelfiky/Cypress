@@ -1,6 +1,5 @@
-To create a README file for installing Cypress with TypeScript, you can follow these steps:
 
-1. **Create a new README.md file** in the root of your project.
+1. Download nodejs and visual studio code.
 
 2. **Add Installation Instructions**:
    ```markdown
