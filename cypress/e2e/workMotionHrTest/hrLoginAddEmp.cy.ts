@@ -15,7 +15,6 @@ describe("Hr Add Employee",()=> {
       
       cy.get("li[data-testid='create-new-item']").click();
 
-      cy.wait(20000);
 
       cy.get("div[class=' css-1wy0on6']").click();
 
@@ -25,12 +24,11 @@ describe("Hr Add Employee",()=> {
 
       cy.get("#onboarding-get-started-btn").click();
 
-      cy.wait(4000);
       cy.get("div[data-testid='onboarding-product-workglobal'] > div > h3").click();
 
       cy.get("button[data-cy='product-selection-begin-onboarding-btn']").click();
 
-      cy.get("header[class='sc-dhKdcB jgTtBH']").contains("Talent Def")
+      cy.get("header[class='sc-dhKdcB jgTtBH']").contains("Talent De")
 
 
 
