@@ -1,5 +1,5 @@
 
-1. Download nodejs and visual studio code.
+1. Download nodejs and visual studio code from visual studio code open terminal and write the below cmd commands.
 
 2. **Add Installation Instructions**:
    ```markdown
