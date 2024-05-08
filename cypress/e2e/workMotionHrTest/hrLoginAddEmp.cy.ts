@@ -16,9 +16,11 @@ describe("Hr Add Employee",()=> {
 
       cy.get("div[class=' css-1wy0on6']").should('be.visible');
 
-      cy.get("div[class=' css-1wy0on6']").click();
+      //cy.get("div[class=' css-1wy0on6']").click();
 
-      cy.get("div[class=' css-hlgwow']").type("Germany");
+      //cy.get("div[class=' css-hlgwow']").type("Germany");
+      
+      cy.get("input[id='select-country']").type("Germany");
 
       cy.get("div[class=' css-1joffuw-option']").click();
 
