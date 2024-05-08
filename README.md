@@ -44,8 +44,8 @@
    ```markdown
    ## Configuration
 
-   - Configure Cypress in the `cypress.json` file.
-   - Configure TypeScript in the `tsconfig.json` file.
+   - Configure Cypress in the `cypress.config.ts` file.
+   - Configure TypeScript in the `tsconfig.ts` file.
    ```
 
 5. **Add Troubleshooting Section** (optional):
