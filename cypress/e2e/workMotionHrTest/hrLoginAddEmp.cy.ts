@@ -5,8 +5,7 @@ describe("Hr Add Employee",()=> {
       
       cy.get("#email").type("aliaa+qahrmanager@workmotion.com");
       cy.get("#password").type("Test1234{enter}");
-      cy.viewport(1400,1000)
-
+      cy.viewport(1400,1000)      
     })
 
   it("Hr Add Employee",()=> {
@@ -15,6 +14,7 @@ describe("Hr Add Employee",()=> {
       
       cy.get("li[data-testid='create-new-item']").click();
 
+      cy.get("div[class=' css-1wy0on6']").should('be.visible');
 
       cy.get("div[class=' css-1wy0on6']").click();
 
@@ -29,6 +29,7 @@ describe("Hr Add Employee",()=> {
       cy.get("button[data-cy='product-selection-begin-onboarding-btn']").click();
 
       cy.get("header[class='sc-dhKdcB jgTtBH']").contains("Talent De")
+
 
 
 
