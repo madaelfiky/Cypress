@@ -1,0 +1,11 @@
+{ 
+  "url": "https://beta.workmotion.com/login",
+
+  "credentials": {
+  "username": "aliaa+qahrmanager@workmotion.com",
+  "password": "Test1234" } ,
+
+  "country": "Germany" ,
+
+  "assertionData": "Talent De"
+}
