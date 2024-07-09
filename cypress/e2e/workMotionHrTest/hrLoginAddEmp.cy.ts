@@ -12,6 +12,9 @@ describe("Hr Add Employee",()=> {
     })
 
   it("Hr Add Employee",()=> {
+
+      
+
       cy.get("button[data-testid='add-employee-menu']").click();
       
       cy.get("li[data-testid='create-new-item']").click();
@@ -31,6 +34,8 @@ describe("Hr Add Employee",()=> {
       cy.get("div[data-testid='onboarding-product-workglobal']").click();
 
       cy.get("button[data-cy='product-selection-begin-onboarding-btn']").click();
+
+      cy.get('#onboarding-continue-btn').scrollIntoView()
 
       cy.get("header[class='sc-dhKdcB jgTtBH']").contains(testData.assertionData);
       
