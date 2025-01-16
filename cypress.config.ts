@@ -6,7 +6,11 @@ export default defineConfig({
       // implement node event listeners here
     },
     
-      "defaultCommandTimeout": 20000
+      "defaultCommandTimeout": 180000,
+      "numTestsKeptInMemory": 0,
+      screenshotOnRunFailure: false,
+      video: false,
+      pageLoadTimeout: 180000
   
   },
 });
