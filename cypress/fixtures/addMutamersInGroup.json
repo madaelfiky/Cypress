@@ -1,0 +1,15 @@
+{ 
+  "url": "https://web-huic.haj.gov.sa/newumrah-test/home",
+
+  "credentials": {
+  "username": "ea20203",
+  "password": "123",
+  "captcha": "1" ,
+  "otp": "1234" 
+  } ,
+    
+
+  "country": "Germany" ,
+
+  "assertionData": "Talent De"
+}
